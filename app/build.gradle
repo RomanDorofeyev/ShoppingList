@@ -1,13 +1,17 @@
 apply plugin: 'com.android.application'
 
+
+version = '3.00'
+
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
     defaultConfig {
-        applicationId "com.shoppinglist.rdproject.shoppinglist"
+        applicationId "com.rdproject.shoppinglist"
+//        applicationId "com.shoppinglist.rdproject.shoppinglist"
         minSdkVersion 21
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 4
-        versionName "3.00"
+        versionName version
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
