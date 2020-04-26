@@ -14,12 +14,12 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".modules.App">
+        android:name="com.rdproject.shoppinglist.modules.App">
         <activity
-        android:name=".MainScreen"
+        android:name="com.rdproject.shoppinglist.MainScreen"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar">
         <intent-filter>
@@ -28,7 +28,7 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
-        <activity android:name=".login.LoginActivity" />
+        <activity android:name="com.rdproject.shoppinglist.login.LoginActivity" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -51,13 +51,13 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".service.FirebaseIdForShoppingListUser">
+        <service android:name="com.rdproject.shoppinglist.service.FirebaseIdForShoppingListUser">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name=".service.SharingListService"
+            android:name="com.rdproject.shoppinglist.service.SharingListService"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -66,9 +66,9 @@
         </service>
 
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.rdproject.shoppinglist.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name=".FindUserToShareList"></activity>
+        <activity android:name="com.rdproject.shoppinglist.FindUserToShareList"></activity>
     </application>
 
 </manifest>

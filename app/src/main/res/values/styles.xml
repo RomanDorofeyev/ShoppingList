@@ -15,8 +15,10 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorSecondary">@color/colorPrimaryDark</item>   <!-- Menu color -->
+        <item name="titleTextColor">@color/colorPrimary</item>                <!-- Title text color -->
+    </style>
 
 </resources>

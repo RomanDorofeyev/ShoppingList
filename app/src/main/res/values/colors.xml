@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#374387</color>
+
+    <color name="colorPrimary">#6C68CB</color>
+    <color name="colorPrimaryDark">#4843C5</color>
+    <color name="colorAccent">#6C68CB</color>
     <color name="cardBackground">#e6dcdf</color>
     <color name="dialogBackground">#FFFFBB33</color>
     <color name="itemImageColour">#9FE554</color>
 
+    <color name="colorLightGrey">#F9F9F9</color>
+    <color name="colorMediumGrey">#777474</color>
 
     <color name="white">#ffffff</color>
 
