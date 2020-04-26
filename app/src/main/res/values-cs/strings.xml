@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Seznam nakupování</string>
+
+    <string name="navigation_drawer_open">Otevřít panel navigace</string>
+    <string name="navigation_drawer_close">Zavřít panel navigace</string>
+    <string name="admob_banner_id">ca-app-pub-8462980126781299/5410228378</string>
+
+
+    <string name="action_settings">Nastavení</string>
+    <string name="share">Rozdělit se seznam </string>
+    <string name="rename">Změnit název </string>
+    <string name="delete">Smazat</string>
+    <string name="add">Dodat</string>
+    <string name="ok_button">OK</string>
+    <string name="are_you_sure">Jste si tím jist?</string>
+    <string name="cancel">Zrušení</string>
+    <string name="clear_done">Vyčistit splnený</string>
+    <string name="clear_all">Vyčistit seznam</string>
+    <string name="clear_shared">Vyčistit ten seznam</string>
+    <string name="enter_the_name_of_product">Co by Vy chteli doplnit?</string>
+    <string name="enter_product_name">Uvédite nazev</string>
+    <string name="enter_quantity">Uvédite počet</string>
+    <string name="create_new_list">Vytvořit nový seznam</string>
+    <string name="add_new_list">Dodat nový seznam</string>
+    <string name="list_name">Nazev seznanu</string>
+    <string name="rename_list">Změnit název </string>
+    <string name="rename_list_header">Změnit název seznamu </string>
+    <string name="choose_list">Výběr seznamu</string>
+    <string name="make_shopping_easier">Udělate shopping jednoduchým !</string>
+    <string name="delete_list">Smazat seznam</string>
+    <string name="logout">Východ</string>
+    <string name="login">Vstup</string>
+    <string name="back_to_list">Zpátky k seznamu</string>
+
+    <string name="logout_text">Vyjít</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <string name="sign_in">Vstoupit</string>
+    <string name="sign_up_button">Přihlášení</string>
+
+    <string name="loading">Vytížení…</string>
+
+    <string name="click_to_verify">Stisknout pro potdvrzeni adresy</string>
+
+    <string name="facebook_app_id">159407041402897</string>
+    <string name="fb_login_protocol_scheme">fb159407041402897</string>
+
+    <string name="change_product">Zmenit nazev</string>
+    <string name="new_product_name">Novy produkt</string>
+    <string name="sort_list">Odklasifikovat seznam</string>
+    <string name="secret_key">I love Shopping</string>
+    <string name="guess_the_secret_phrase">Uhádnout tajný klíč</string>
+    <string name="remove_ads">Oddálit banner</string>
+    <string name="title_activity_settings">Nastavení</string>
+
+    <string name="chose_language">Jazyk</string>
+    <string-array name="chose_language_array_titles">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Cestina</item>
+    </string-array>
+    <string-array name="chose_language_array_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_ringtone_silent">Tichý</string>
+
+    <string name="pref_title_block_screen">Zakázat ABS obrazovky</string>
+    <string name="pref_log_out_on_exit">Východ z  účetu u uzavření</string>
+    <string name="remove_ads_completely">Uplně oddálit reklamu</string>
+    <string name="app_version">2.12</string>
+    <string name="title_version">Verze</string>
+    <string name="contact_us">Kontakty</string>
+    <string name="watch_ads_video">Podívejte se na reklamu </string>
+    <string name="send_email">Odeslání dopisu..</string>
+    <string name="banner_not_border">Gratulujeme, banner vás už nebude obtěžovat!</string>
+    <string name="nice_try">Skvělý pokus!</string>
+    <string name="to_remove_ads_for_now">Tuto banner odstraňte pouze tentokrát</string>
+    <string name="well_done_you_got">Skvělá práce, kterou jsi vzal </string>
+    <string name="check_for_shared_lists">Zkontrolujte dostupné seznamy</string>
+    <string name="user_mail_domain_com">user_mail@domain.com</string>
+    <string name="user_name_card">Uživatelské jméno</string>
+    <string name="no_user_finded">Uživatel nebyl nalezen</string>
+    <string name="search_user">Uživatelské vyhledávání..</string>
+    <string name="no_list_available">Žádné seznamy nejsou k dispozici</string>
+    <string name="thank_you">Děkuji!</string>
+    <string name="need_restart">Restartujte aplikaci, aby se změny projevily</string>
+    <string name="must_sign_in_to_share">Pro sdílení seznamů musíte být přihlášeni!</string>
+    <string name="want_to_share_list">chce sdílet seznam:</string>
+    <string name="list_available_to">Seznam je nyní k dispozici pro uživatele</string>
+    <string name="now"> !</string>
+
+
+</resources>

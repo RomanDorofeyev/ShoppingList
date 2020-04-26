@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#374387</color>
+    <color name="cardBackground">#e6dcdf</color>
+    <color name="dialogBackground">#FFFFBB33</color>
+    <color name="itemImageColour">#9FE554</color>
+
+
+    <color name="white">#ffffff</color>
+
+    <!-- 500 -->
+    <!-- 700 -->
+    <!-- 800 -->
+    <color name="login_accent">#FFFFFF</color>
+
+</resources>

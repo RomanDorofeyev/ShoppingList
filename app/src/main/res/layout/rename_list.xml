@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rename_list">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/dialogBackground"
+        android:textSize="10pt"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:text="@string/rename_list_header"
+        android:textColorLink="@color/colorAccent" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_newlistname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/enter_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:hint="@string/list_name"
+        android:inputType="textCapSentences"
+        android:textSize="8pt">
+    </EditText>
+</android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/cancel_add_list_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/rename_list_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="@string/rename_list" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список покупок</string>
+
+    <string name="navigation_drawer_open">Открыть панель навигации</string>
+    <string name="navigation_drawer_close">Закрыть панель навигации</string>
+    <string name="admob_banner_id">ca-app-pub-8462980126781299/5410228378</string>
+
+
+    <string name="action_settings">Настройки</string>
+    <string name="share">Поделиться списком</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="add">Добавить</string>
+    <string name="ok_button">OK</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="cancel">Отмена</string>
+    <string name="clear_done">Очистить выполненные</string>
+    <string name="clear_all">Очистить список</string>
+    <string name="clear_shared">Очистить этот список</string>
+    <string name="enter_the_name_of_product">Что бы вы хотели добавить?</string>
+    <string name="enter_product_name">Введите название</string>
+    <string name="enter_quantity">Введите количество</string>
+    <string name="create_new_list">Создать новый список</string>
+    <string name="add_new_list">Добавить новый список</string>
+    <string name="list_name">Название списка</string>
+    <string name="rename_list">Переименовать</string>
+    <string name="rename_list_header">Переименовать список</string>
+    <string name="choose_list">Выбор списка</string>
+    <string name="make_shopping_easier">Сделайте шоппинг проще!</string>
+    <string name="delete_list">Удалить список</string>
+    <string name="logout">Выход</string>
+    <string name="login">Вход</string>
+    <string name="back_to_list">Назад к списку</string>
+
+    <string name="logout_text">Выйти</string>
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+
+    <string name="sign_in">Войти</string>
+    <string name="sign_up_button">Регистрация</string>
+
+    <string name="loading">Загрузка…</string>
+
+    <string name="click_to_verify">Нажмите для подтверждения адреса</string>
+
+    <string name="facebook_app_id">159407041402897</string>
+    <string name="fb_login_protocol_scheme">fb159407041402897</string>
+
+    <string name="change_product">Изменить название</string>
+    <string name="new_product_name">Новый товар</string>
+    <string name="sort_list">Отсортировать список</string>
+    <string name="secret_key">I love Shopping</string>
+    <string name="guess_the_secret_phrase">Угадайте секретный ключ</string>
+    <string name="remove_ads">Удалить баннер</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="chose_language">Язык</string>
+    <string-array name="chose_language_array_titles">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Cestina</item>
+    </string-array>
+    <string-array name="chose_language_array_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="pref_ringtone_silent">Беззвучный</string>
+
+    <string name="pref_title_block_screen">Запретить автоблокировку экрана</string>
+    <string name="pref_log_out_on_exit">Выход из аккаунта при закрытии</string>
+    <string name="remove_ads_completely">Полностью удалить рекламу</string>
+    <string name="app_version">2.12</string>
+    <string name="title_version">Версия</string>
+    <string name="contact_us">Контакты</string>
+    <string name="watch_ads_video">Смотреть рекламный ролик</string>
+    <string name="send_email">Отправка письма..</string>
+    <string name="banner_not_border">Поздравляем, баннер больше вас не побеспокоит!</string>
+    <string name="nice_try">Отличная попытка!</string>
+    <string name="to_remove_ads_for_now">Удалить баннер только на этот раз</string>
+    <string name="well_done_you_got">Отличная работа, вы взяли </string>
+    <string name="check_for_shared_lists">Проверить доступные списки</string>
+    <string name="user_mail_domain_com">user_mail@domain.com</string>
+    <string name="user_name_card">Имя пользователя</string>
+    <string name="no_user_finded">Пользователь не найден</string>
+    <string name="search_user">Поиск пользователя..</string>
+    <string name="no_list_available">Нет доступных списков</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="need_restart">Перезапустите приложение, чтобы изменения вступили в силу</string>
+    <string name="must_sign_in_to_share">Вы должны быть авторизированы, чтобы делиться списками!</string>
+    <string name="want_to_share_list">хочет поделиться списком:</string>
+    <string name="list_available_to">Список теперь доступен пользователю </string>
+    <string name="now"> !</string>
+
+
+</resources>

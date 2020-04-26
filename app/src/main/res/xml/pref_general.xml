@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@null"
+        android:entries="@array/chose_language_array_titles"
+        android:entryValues="@array/chose_language_array_values"
+        android:key="language_settings"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@null"
+        android:title="@string/chose_language"
+
+        android:enabled="true"/>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="lock_screen"
+        android:title="@string/pref_title_block_screen" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="log_out_on_exit"
+        android:title="@string/pref_log_out_on_exit" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:hint="@string/guess_the_secret_phrase"
+        android:inputType="textCapWords"
+        android:key="@string/secret_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/remove_ads_completely" />
+
+    <Preference
+        android:defaultValue="false"
+        android:summary="@string/to_remove_ads_for_now"
+        android:title="@string/watch_ads_video"
+        android:key="@string/remove_ads"/>
+
+    <Preference
+        android:title="@string/contact_us"
+        android:key="@string/contact_us"/>
+
+    <Preference
+        android:summary="@string/app_version"
+        android:title="@string/title_version" />
+
+</PreferenceScreen>
