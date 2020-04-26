@@ -6,8 +6,8 @@ android {
         applicationId "com.shoppinglist.rdproject.shoppinglist"
         minSdkVersion 21
         targetSdkVersion 27
-        versionCode 3
-        versionName "2.13"
+        versionCode 4
+        versionName "3.00"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
