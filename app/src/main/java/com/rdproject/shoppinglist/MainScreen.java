@@ -185,9 +185,7 @@ public class MainScreen extends AppCompatActivity
         loadData(pathToList);
         loadSharedLists();
 
-        Log.d(TAG, "end of onCreate   " + FacebookSdk.getApplicationSignature(getApplicationContext()));
-
-        //getHashKey();
+//        getHashKey();
     }
 
     private void loadData(String path) {
@@ -812,12 +810,12 @@ public class MainScreen extends AppCompatActivity
     private void getHashKey() {
         try {
             PackageInfo info = getPackageManager().getPackageInfo(
-                    "com.shoppinglist.rdproject.shoppinglist",
+                    "com.rdproject.shoppinglist",
                     PackageManager.GET_SIGNATURES);
             for (Signature signature : info.signatures) {
                 MessageDigest md = MessageDigest.getInstance("SHA");
                 md.update(signature.toByteArray());
-                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+                Log.e("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
             }
         } catch (PackageManager.NameNotFoundException | NoSuchAlgorithmException e) {
 
