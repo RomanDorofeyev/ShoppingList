@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:840808179544:android:f760738a2e1a612f",
         "android_client_info": {
-          "package_name": "com.rdproject.shoppinglist"
+          "package_name": "com.shoppinglist.rdproject.shoppinglist"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "840808179544-j4a537gt32ri8rbirfsurigiscock2f9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rdproject.shoppinglist",
+            "package_name": "com.shoppinglist.rdproject.shoppinglist",
             "certificate_hash": "1585e8b60f41726d0b5c3f149152e1213873c122"
           }
         },
@@ -26,7 +26,7 @@
           "client_id": "840808179544-f4c3bbtd2jtck3qompmlq0mf41bljgap.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rdproject.shoppinglist",
+            "package_name": "com.shoppinglist.rdproject.shoppinglist",
             "certificate_hash": "39081f85c9e9d712b47b0bacddf283f7f8641c28"
           }
         },
@@ -34,7 +34,7 @@
           "client_id": "840808179544-nm2val1g8dknhu7gkmqadnrg91kvgq0a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rdproject.shoppinglist",
+            "package_name": "com.shoppinglist.rdproject.shoppinglist",
             "certificate_hash": "067a1368110093c1a2d1d7080ea8121aa94f4b6d"
           }
         },
