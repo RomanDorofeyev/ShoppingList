@@ -27,7 +27,7 @@ public class ModifyItemDialog extends DialogFragment {
             LayoutInflater inflater = getActivity().getLayoutInflater();
             View dialogAddList = inflater.inflate(R.layout.modify_item_dialog, null);
             inputListName = dialogAddList.findViewById(R.id.enter_product_name);
-            inputListName.setHint(product.getName());
+            inputListName.setText(product.getName());
             renameItem = dialogAddList.findViewById(R.id.rename_item);
             deleteItem = dialogAddList.findViewById(R.id.delete_item);
             cancelItemModification = dialogAddList.findViewById(R.id.cancel_add_item_button);
