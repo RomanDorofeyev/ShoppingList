@@ -1,6 +1,6 @@
 # ShoppingList
 
-Easy shopping managment app
+Easy shopping management app
 
 # Changelog
 

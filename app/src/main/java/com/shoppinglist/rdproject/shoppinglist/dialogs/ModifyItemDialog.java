@@ -4,7 +4,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -28,6 +28,9 @@ public class ModifyItemDialog extends DialogFragment {
             View dialogAddList = inflater.inflate(R.layout.modify_item_dialog, null);
             inputListName = dialogAddList.findViewById(R.id.enter_product_name);
             inputListName.setText(product.getName());
+            if (!product.getName().isEmpty()) {
+                inputListName.setSelection(product.getName().length());
+            }
             renameItem = dialogAddList.findViewById(R.id.rename_item);
             deleteItem = dialogAddList.findViewById(R.id.delete_item);
             cancelItemModification = dialogAddList.findViewById(R.id.cancel_add_item_button);

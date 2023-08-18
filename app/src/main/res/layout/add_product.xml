@@ -16,7 +16,7 @@
         android:text="@string/enter_the_name_of_product"
         android:textColorLink="@color/colorAccent" />
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -35,9 +35,9 @@
         android:textSize="8pt">
     </EditText>
 
-</android.support.design.widget.TextInputLayout>
+</com.google.android.material.textfield.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_layout_qty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -57,7 +57,7 @@
         android:textSize="8pt"
         />
 
-    </android.support.design.widget.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
 
     <LinearLayout
