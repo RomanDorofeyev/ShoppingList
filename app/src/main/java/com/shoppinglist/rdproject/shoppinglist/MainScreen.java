@@ -89,11 +89,7 @@ public class MainScreen extends AppCompatActivity
     public static final String APP_PREFERENCES_LIST_NAME = "listName";
     public static final String APP_PREFERENCES_MAP_OF_LISTS = "mapOfLists";
     public static final String APP_PREFERENCES_USER_EMAIL = "userEmail";
-    public static final String APP_PREFERENCES_IS_ADS_FREE = "isAdsfree";
     private static final int FIND_USER_TO_SHARE = 3131;
-
-    public static boolean isAdsfree = false;
-    public static boolean isAdsfreeForNow = false;
 
     private User localUser;
     public String userId;
@@ -134,19 +130,11 @@ public class MainScreen extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            getWindow().setStatusBarColor(getColor(R.color.colorLightGrey));
-            getWindow().getDecorView().setSystemUiVisibility(getWindow().getDecorView().getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-        }
+        getWindow().setStatusBarColor(getColor(R.color.colorLightGrey));
+        getWindow().getDecorView().setSystemUiVisibility(getWindow().getDecorView().getSystemUiVisibility() | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                new AddDialog().show(getFragmentManager(), "AddDialog");
-
-            }
-        });
+        fab.setOnClickListener(view -> new AddDialog().show(getFragmentManager(), "AddDialog"));
 
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -159,7 +147,6 @@ public class MainScreen extends AppCompatActivity
 
         // end of template
         // start code
-        isAdsfreeForNow = false;
 
         ((App) getApplicationContext()).getAppComponent().inject(this);
 
@@ -618,7 +605,6 @@ public class MainScreen extends AppCompatActivity
             fillUserDatails(localUser);
         }
         preferenceChecker();
-        Log.d(TAG, "onStart called   isAdsfree = " + isAdsfree + "  isAdsfreeForNow =   " + isAdsfreeForNow);
         Log.d(TAG, "listOfListsToDisplay = " + listOfListsToDisplay + "  mapOfLists =   " + mapOfLists);
     }
 
@@ -720,7 +706,6 @@ public class MainScreen extends AppCompatActivity
         SharedPreferences.Editor ed = mSettings.edit();
         ed.putString(APP_PREFERENCES_LIST_NAME, listName);
         ed.putString(APP_PREFERENCES_MAP_OF_LISTS, saveMapToString(mapOfLists));
-        ed.putBoolean(APP_PREFERENCES_IS_ADS_FREE, isAdsfree);
         ed.apply();
     }
 
@@ -729,7 +714,6 @@ public class MainScreen extends AppCompatActivity
             listName = mSettings.getString(APP_PREFERENCES_LIST_NAME, "Newlist1");
             String savedMap = mSettings.getString(APP_PREFERENCES_MAP_OF_LISTS, "");
             mapOfLists = getSavedMap(savedMap);
-            isAdsfree = mSettings.getBoolean(APP_PREFERENCES_IS_ADS_FREE, false);
             Log.d("TEST", listName);
         } else {
             listName = "Newlist1";
